@@ -1,102 +1,101 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-
-    <title>Hello, world!</title>
-
-    <style>
-
-        .container{
-            width: 90%;
-            padding: 20px;
-            margin: 100px auto;	 
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
-        }
-        
-        .box{
-            width: 250px;
-            margin: 0 10px;
-            box-shadow: 0 0 20px 2px rgba(0, 0, 0, .1);
-            transition: 1s;
-    
-        }
-        .box img{
-            display: block;
-            width:100%;
-            border-radius: 5px;
-        }
-        .box:hover{
-            transform: scale(1.3);
-            z-index: 2;
-        }
-        </style>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <style></style>
+    <title>หน้าหลัก</title>
+    <link rel="stylesheet" href="addition.css" type="text/css" />
   </head>
-  <body>
 
+  <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">หน้าหลัก</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  แกลเลอรี่
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
-              </li>
-              
-            </ul>
-            
-          </div>
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">หน้าหลัก</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                แกลเลอรี่
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <hr class="dropdown-divider" />
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
         </div>
-      </nav>
-      <!-- <div class="container">
-        <img src="img/1.jpg" class="img-fluid" alt="...">
-        <img src="img/2.jpg" class="img-fluid" alt="...">
-      </div> -->
-      
       </div>
-      <div class="container">
-        <div class="box">
-            <img src="img/1.jpg">
+    </nav>
+    <h1>ประเพณีไทย</h1>
+    <div style="background-image: url('img/1.jpg')" class="bg">
+      <div class="container1">
+        <a href="http://">
+          <div class="box">
+            <img src="img/1.jpg" />
             <div class="text-center">ภาคเหนือ</div>
           </div>
-        <div class="box">
-            <img src="img/2.jpg">
+        </a>
+
+        <a href="http://">
+          <div class="box">
+            <img src="img/2.jpg" />
             <div class="text-center">ภาคกลาง</div>
           </div>
-        <div class="box">
-            <img src="img/1.jpg">
-            <div class="text-center">ภาคอีสาน</div>
-        </div>
-          <div class="box">
-            <img src="img/2.jpg">
-            <div class="text-center">ภาคใต้</div>
-        </div>
+        </a>
       </div>
-      
-    
-      
-      
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+      <div class="container1">
+        <a href="http://">
+          <div class="box">
+            <img src="img/1.jpg" />
+            <div class="text-center">ภาคอีสาน</div>
+          </div>
+        </a>
 
-   
+        <a href="http://">
+          <div class="box">
+            <img src="img/2.jpg" />
+            <div class="text-center">ภาคใต้</div>
+          </div>
+        </a>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
