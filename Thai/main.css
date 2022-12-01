@@ -4,9 +4,24 @@
     box-sizing: border-box;
 }
 
-main {
+.main {
     margin: 2rem auto;
-    width: 640px;
-    height: 800px;
-    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+    width: 1600px;
+    height: 900px;
+    box-shadow: 3px 3px 10px rgba(120, 51, 247, 0.2);
+    border-radius: 10px;
+}
+
+.img {
+    height: 400px;
+    background: red;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.content {
+    text-align: center;
+    border-bottom: 2px solid #e5e5e5;
+    height: 450px;
+
 }
