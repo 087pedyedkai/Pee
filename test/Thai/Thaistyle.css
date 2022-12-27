@@ -14,7 +14,7 @@
 
 .img {
     height: 400px;
-    background: red;
+    /* background: red; */
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     overflow: hidden;
@@ -26,21 +26,15 @@
 
 .content {
     text-align: center;
-    height: 300px;
-    justify-content: center;
+    height: 450px;
     display: flex;
     align-items: center;
     flex-direction: column;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 4rem;
 }
 
-.select {
-    text-align: center;
-    height: 150px;
-    justify-content: center;
-    display: flex;
-    align-items: center;
-    float: left;
-}
 
 .content h3 {
     border-bottom: 2px solid #e5e5e5;
@@ -52,47 +46,10 @@
 
 .footer {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     /* background: red; */
     height: 50px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
-    clear: both;
-}
-
-.ft-r {
-    padding-right: 1rem;
-}
-
-.ft-l {
-    padding-left: 1rem;
-}
-
-.box{
-    width: 420px;
-    margin: 0 60px;
-    transition: 1s;
-    background-color: white;
-    border-radius: 20px;
-    border-bottom: 2px solid black;
-    
-}
-
-.box img{
-    display: block;
-    width:100%;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-}
-
-.box:hover{
-    transform: scale(1.14);
-    z-index: 2;
-}
-
-
-.container2{
-    width: 200px;
-    height: 150px;
 }
